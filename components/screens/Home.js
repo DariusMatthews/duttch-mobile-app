@@ -4,8 +4,8 @@ import {StyleSheet, View, Button} from 'react-native';
 const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
-      {/* <Button title="Sign Up" onPress={() => navigation.navigate('Sign Up')} />
-      <Button title="Sign In" onPress={() => navigation.navigate('Sign In')} /> */}
+      <Button title="Sign Up" onPress={() => navigation.navigate('Sign Up')} />
+      <Button title="Sign In" onPress={() => navigation.navigate('Sign In')} />
       <Button
         title="Take Photo of Bill"
         onPress={() => navigation.navigate('Photo')}

@@ -585,6 +585,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5AFF7FD1BB6CF2645C9CDD1 /* Pods-duttch-duttchTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 87F55N774K;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -609,6 +610,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F161088D4CB9E5348E65E52 /* Pods-duttch-duttchTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 87F55N774K;
